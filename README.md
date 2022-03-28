@@ -34,7 +34,7 @@ We will calculate the `CPI(Consumer price index)` and `Inflation Rate`:
     ```
 
 
-#### **3. Visualization**
+#### **3. Data Visualization**
 In the step, we're going to generate some plots using Matplotlib.
 
 - a. Plot the entire dataset with 'Years' as x axis and 'Products' as y axis.

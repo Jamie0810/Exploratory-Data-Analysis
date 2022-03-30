@@ -9,6 +9,11 @@ We will perform the following steps:
 #### **1. Data Preprocessing**
 Before we get into analyzing it, we need to standardize the dataset, this might be including removing unwanted row/column/data, converting data types, fixing structural errors, handling missing data, etc. We will use Pandas for this preparation step.
 
+Our goal for this step is to convert the [Consumer Price Index dataset](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000201&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2012&cubeTimeFrame.endMonth=12&cubeTimeFrame.endYear=2021&referencePeriods=20120101%2C20211201) into a clean dataframe. The desired output after the preprocessing would look like:
+
+![](src/images/data_preprocessing_output_example.png)
+...
+![](src/images/data_preprocessing_output_example2.png)
 #### **2. Data Analysis**
 After preprocessing it, we have a clean dataset. With this dataset, we're ready to do further analysis and get some useful insights from it.
 We will calculate the `CPI(Consumer price index)` and `Inflation Rate`:  

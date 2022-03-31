@@ -6,7 +6,9 @@ Data exploration involves summarizing and realizing the dataset and it usually u
 In this tutorial, we'll walk you through exploratory data analysis of [Monthly Average Retail Prices](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000201&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2012&cubeTimeFrame.endMonth=12&cubeTimeFrame.endYear=2021&referencePeriods=20120101%2C20211201) step by step.
 
 ### **Dataset Explanation**
-This dataset involves monthly average retail prices for food and some essentials from 2012 to 2021.
+This dataset consists of monthly average retail prices for food and some essentials between 2012 and 2021:
+
+![](src/images/dataset.png)
 ### **Goals**
 The goal of this project is to practice data cleaning, analysis and visualization skills using Python Pandas, Numpy and Matplotlib.
 We'll first import the dataset, then perform some processing with it to make it a bit more cleaner, and we're using the clean version to get some insights. After that, we will generate some trend charts at the end.

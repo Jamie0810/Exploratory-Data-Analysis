@@ -90,4 +90,6 @@ In the step, we're going to create some plots using Matplotlib.
 
     Create a simple line chart from the dataset, set the timeline (Years and Months) on x-axis and the 'Product Price' on y-axis.
 
-- 3.2. Plot a specific column
+- 3.2. Plot specific products. For example:
+
+    <img src="src/images/linechart_example.png" width="400" />
